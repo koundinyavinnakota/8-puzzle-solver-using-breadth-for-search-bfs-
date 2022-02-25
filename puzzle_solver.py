@@ -131,21 +131,7 @@ def backtracking(start_node,goal_node,visited):
                 path.append( a )
     
     return path[::-1]
-    
-    
-    
-def column_to_line(list_of_lists):
-    output_list = []
-    for i in range(0,len(list_of_lists)):
-        for j in range(0, len(list_of_lists[i])):
-            intermediate_list = []
-            for k in range(0, 3):
-                for l in range(0,3):
-                    a=list_of_lists.current_config
-                    intermediate_list.append(a[i][l][k])
-        output_list.append(intermediate_list)
-    return output_list
-        
+   
     
     
     
